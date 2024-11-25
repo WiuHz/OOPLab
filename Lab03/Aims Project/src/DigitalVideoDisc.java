@@ -10,6 +10,9 @@ public class DigitalVideoDisc {
 	// Create attribute id and nbDigitalVideoDisc
 	private static int nbDigitalVideoDisc = 0;
 	private int id;
+	public void setTitle(String Title){
+		this.title = title;
+	}
 	//Update the attribute nbDigitalVideoDisc and put it to id
 	public DigitalVideoDisc(int id){
 		nbDigitalVideoDisc++;

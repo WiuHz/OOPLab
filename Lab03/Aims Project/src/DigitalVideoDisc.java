@@ -70,7 +70,7 @@ public class DigitalVideoDisc {
 		return id;
 	}
 	public boolean Match(String Title){
-		return this.title.toLowerCase().contains(title.toLowerCase());
+		return this.title.equals(title);
 	}
 	public String toString(){
 		return "DVD: " + title + " " + category + " " + director + " " + length + " " + cost;

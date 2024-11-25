@@ -22,8 +22,11 @@ public class Store{
     }
 
     public void printStore(){
+        total = 0;
+        System.out.println("Ordered Items:");
         for (int i : items){
-            System.out.println(i+1 + ". " + items.get(i));
+            System.out.println((i+1) + ". " + items.get(i));
         }
+        System.out.println("Total cost: " + totalCost());
     }
 }
